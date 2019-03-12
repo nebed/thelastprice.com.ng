@@ -1,6 +1,5 @@
 from re import sub
 from re import compile as recompile
-from urllib.parse import urljoin
 import os
 
 
