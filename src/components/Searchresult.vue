@@ -90,10 +90,7 @@
 		},
 
 		methods: {
-			showProduct() {
-              this.$emit('clicked', {'url':this.url, 'store':this.store});
-            },
-            
+			
 			playCard(interaction) {
 		    const {
 		      interactOutOfSightXCoordinate,

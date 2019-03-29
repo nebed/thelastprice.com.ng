@@ -46,10 +46,8 @@ def search_products(term=None):
 def visit_store():
     store = request.args.get('store')
     url = request.args.get('url')
-    print(url)
     conn = sqlite3.connect('database.db')
     visited_url = conn.execute("SELECT id, times_visited from visited_stores where url = ? LIMIT 1",(url,)).fetchall()
-    print(visited_url)
     if len(visited_url) == 0:
         conn.execute("INSERT INTO visited_stores (store,url,times_visited) VALUES (?,?,?)", (store,url,1))
         conn.commit()
@@ -386,4 +384,4 @@ def latest_jiji(url, sort=None):
 
 if __name__ == '__main__':
 	app.debug = True
-	app.run()
+	app.run(host='0.0.0.0', port=5000)

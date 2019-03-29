@@ -118,9 +118,9 @@ export default {
         this.results.splice(index, 1);
     },
     setUrl(args) {
-                var urltovisit = window.location.href + 'visitstore/?url=' + args.url + '&store=' + args.store;
-                this.isLoading=true;
-                axios.get(urltovisit).then(response => {  this.isLoading=false; return window.location.href = response.data; }).catch(error => { this.isLoading=false; return console.log(error);});
+        var urltovisit = window.location.href + 'visitstore/?url=' + args.url + '&store=' + args.store;
+        this.isLoading=true;
+        axios.get(urltovisit).then(response => {  this.isLoading=false; window.open(response.data, '_blank'); }).catch(error => { this.isLoading=false; return console.log(error);});
     },
   }
 }
