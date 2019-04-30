@@ -1,16 +1,16 @@
 # thelastprice.com.ng
 A website that aims to provide price comparisons across different services including
 
-##Online Stores
+## Online Stores
 * Jumia
 * Konga
 * Jiji
 * Kara
 * Slot
 
-##Cinemas
+## Cinemas
 
 
-##Bus Transit
+## Bus Transit
 
 ### Contributions are welcome
