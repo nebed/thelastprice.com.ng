@@ -1,5 +1,7 @@
-# thelastprice.com.ng
+# thelastprice.herokuapp.com
 A website that aims to provide price comparisons across different services including
+
+htpps://thelastprice.herokuapp.com
 
 ## Online Stores
 * Jumia
