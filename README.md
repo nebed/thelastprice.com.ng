@@ -1,4 +1,4 @@
-# thelastprice.herokuapp.com
+# thelastprice.herokuapp.com - An amazing project
 A website that aims to provide price comparisons across different services including
 
 https://thelastprice.herokuapp.com
