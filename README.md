@@ -15,4 +15,4 @@ https://thelastprice.herokuapp.com
 
 ## Bus Transit
 
-### Contributions are welcome
+### Any Contributions are welcome
