@@ -1,5 +1,5 @@
 # thelastprice.herokuapp.com
-A website that aims to provide price comparisons across different services including
+A website that aims to provide price comparisons which surprising easy for you across different services including
 
 https://thelastprice.herokuapp.com
 
